@@ -1,0 +1,13 @@
+print("URK24CS1048")
+print("D.R.JERUSHA")
+number = int(input("Enter a number to find its factorial: "))
+if number < 0:
+    print("Factorial is not defined for negative numbers.")
+else:
+    result = 1
+    n = number
+    while n > 0:
+        result *= n
+        n -= 1
+
+    print("the factorial of" , number, "is" , result)
