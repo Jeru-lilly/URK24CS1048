@@ -1,0 +1,11 @@
+print("URK24CS1048")
+print("D.R.JERUSHA")
+S1=int(input("Enter a number:"))
+S2=int(input("Enter a number:"))
+S3=int(input("Enter a number:"))
+if S1==S2 and S2==S3 and S3==S1:
+  print("It is an Equilateral Triangle!!")
+elif S1>S2 or S2>S3 or S3>S1:
+  print("It is an Isosceles Triangle!!")
+else:
+  print("It is a Scalene Triangle!!")
